@@ -1,0 +1,28 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/*
+primary: Blue: hsl(223, 87%, 63%)
+ 
+Second: - Pale Blue: hsl(223, 100%, 88%)
+- Light Red: hsl(354, 100%, 66%)
+
+Neutral: 
+- Gray: hsl(0, 0%, 59%)
+- Very Dark Blue: hsl(209, 33%, 12%) */
+
+body {
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.flex-wrapper {
+    height: 100vh;
+}
+
+h3{
+    font-weight: 700;
+}
+
+.launching { 
+    font-weight: 300
+}
