@@ -21,6 +21,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: rgb(250, 250, 250) !important;
 }
 
 .flex-wrapper {
@@ -108,7 +109,11 @@ input:focus {
 }
 
 .icons {
-  color: hsl(223, 87%, 63%);
+  color: white !important;
+}
+
+.fa-inverse {
+  color: hsl(223, 87%, 63%) !important;
 }
 
 .border-circular {
