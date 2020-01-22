@@ -85,6 +85,7 @@ input:focus {
   background-color: hsl(223, 87%, 63%) !important;
   color: white !important;
   width: 33% !important;
+  box-shadow: 0px 5px 5px 0px hsl(223, 100%, 88%);
 }
 
 .hidden {
