@@ -24,7 +24,11 @@ body {
 }
 
 .flex-wrapper {
-  width: 50%;
+  width: 40%;
+}
+
+.copyright-bottom {
+  font-size: 0.8em !important;
 }
 
 h3 {
