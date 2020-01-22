@@ -1,9 +1,14 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 /*
 primary: Blue: hsl(223, 87%, 63%)
  
-Second: - Pale Blue: 
+Second: - Pale Blue:  hsl(223, 100%, 88%)
 - Light Red: hsl(354, 100%, 66%)
 
 Neutral: 
@@ -11,56 +16,60 @@ Neutral:
 - Very Dark Blue: hsl(209, 33%, 12%) */
 
 body {
-    font-size: 20px;
-    font-family: 'Libre Franklin', sans-serif !important;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif !important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .flex-wrapper {
-    width: 50%;
+  width: 50%;
 }
 
-h3{
-    font-weight: 700 !important;
+h3 {
+  font-weight: 700 !important;
 }
 
 h1 {
-    font-weight: 600 !important;
+  font-weight: 600 !important;
 }
 
 .launching {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 img {
-    width: 100%;
+  width: 100%;
+}
+
+.blue {
+  color: hsl(223, 87%, 63%);
 }
 
 input {
-    border-radius: 9999px;
-    display: inline-block;
+  border-radius: 9999px;
+  display: inline-block;
 }
 
 input:nth-of-type(1) {
-    width: 65%;
+  width: 65%;
 }
- 
+
 input:nth-of-type(2) {
-    background-color:hsl(223, 87%, 63%);
-    color: white;
-    width: 33%;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  width: 33%;
 }
 
 .icons {
-    color: hsl(223, 87%, 63%);
+  color: hsl(223, 87%, 63%);
 }
 
 .border-circular {
-    border: .05em; 
-    border-color: #F3F4F6; 
-    border-radius: 50%;
-    border-style: solid;
-    padding: .5em;
+  border: 0.05em;
+  border-color: #f3f4f6;
+  border-radius: 50%;
+  border-style: solid;
+  padding: 0.5em;
 }
