@@ -31,6 +31,10 @@ h3 {
   font-weight: 700 !important;
 }
 
+.header {
+  width: 100%;
+}
+
 h1 {
   font-weight: 600 !important;
 }
@@ -53,7 +57,7 @@ input {
 }
 
 .email-input {
-  width: 65%;
+  width: 65% !important;
   padding-left: 1.25em !important;
 }
 
@@ -68,6 +72,13 @@ input:focus {
   -webkit-appearance: none;
   box-shadow: none !important;
   border-color: hsl(223, 100%, 88%) !important;
+}
+
+.notify-me:hover,
+.notify-me:active,
+.notify-me:focus {
+  cursor: pointer;
+  background-color: rgb(113, 149, 245) !important;
 }
 
 .error-border {
