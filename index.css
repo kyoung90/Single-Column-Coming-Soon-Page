@@ -60,6 +60,10 @@ input {
   border-color: hsl(354, 100%, 66%) !important;
 }
 
+.error-message {
+  color: hsl(354, 100%, 66%);
+}
+
 .notify-me {
   background-color: hsl(223, 87%, 63%) !important;
   color: white !important;
