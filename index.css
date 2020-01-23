@@ -163,7 +163,11 @@ input:focus {
   }
 
   h1 {
-    font-size: 1.7em;
+    font-size: 1.7em !important;
   }
 
+  img {
+    padding-top: 2em; 
+    padding-bottom: 3.5em;
+  }
 }
