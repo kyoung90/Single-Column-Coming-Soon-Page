@@ -33,45 +33,42 @@
     <div
       class="flex-wrapper d-flex flex-column justify-content-around align-items-center pt-5"
     >
-      <h3 class="title">PING<span class='blue'>.</span></h3>
-      <div class="header text-center">
+      <h3 class="title">PING<span class='blue' role="punctuation">.</span></h3>
+      <div class="header text-center" role="header">
         <h1 class='pt-5'>
-          <span class="launching text-muted">We are launching </span>soon!
+          <span class="launching text-muted" role="highlight">We are launching </span>soon!
         </h1>
         Subscribe and get notified
 
         <form class="d-flex flex-wrap justify-content-between pt-4 pb-4">
-          <input type='text' placeholder='Your email address...' class='form-control email-input'></input>
+          <input type='text' placeholder='Your email address...' class='form-control email-input' role="email input"></input>
           <p class="error-message">Please provide a valid email address</p>
-          <input type='submit' class='form-control notify-me' value='Notify Me'></input>
+          <input type='submit' class='form-control notify-me' value='Notify Me' role="submit button"></input>
         </form>        
       </div>
 
-      <div class="content">
-        <img src='./images/illustration-dashboard.png'>
+      <div class="content" role="image">
+        <img src='./images/illustration-dashboard.png' alt="Slack Illustration">
       </div>
 
-      <div class="text-center pt-5">
-        <div class='icons'>
-        <!-- <i class="fab fa-facebook-f border-circular"></i> -->
-        <!-- <i class="fab fa-twitter border-circular"></i>
-        <i class="fab fa-instagram border-circular"></i>  -->
-        <span class="fa-stack fa-lg">
+      <div class="text-center pt-5" role="icons wrapper">
+        <div class='icons' role="icons">
+        <span class="fa-stack fa-lg" role="facebook icon">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
         </span> 
-        <span class="fa-stack fa-lg">
+        <span class="fa-stack fa-lg" role="twitter icon">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
         </span> 
-        <span class="fa-stack fa-lg">
+        <span class="fa-stack fa-lg" role="instagram icon">
           <i class="fa fa-circle fa-stack-2x"></i>
           <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
         </span> 
 
         <br>
       </div>
-      <span class="text-muted d-block pt-3 copyright">&copy; Copyright Ping. All rights reserved.</span>
+      <span class="text-muted d-block pt-3 copyright" role="copyright">&copy; Copyright Ping. All rights reserved.</span>
       
     </div>
     <footer class="pt-3">
