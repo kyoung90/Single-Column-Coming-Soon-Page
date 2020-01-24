@@ -59,6 +59,9 @@ img {
 input {
   border-radius: 9999px !important;
   display: inline-block;
+  padding-top: 0.6em !important;
+  padding-bottom: 0.6em !important;
+  height: auto !important;
 }
 
 .email-input {
@@ -158,8 +161,8 @@ input:focus {
   .error-message {
     order: 0;
     align-self: center;
-    font-size: .8em;
-    padding-top: .1rem !important;
+    font-size: 0.8em;
+    padding-top: 0.1rem !important;
   }
 
   h1 {
@@ -167,7 +170,7 @@ input:focus {
   }
 
   img {
-    padding-top: 2em; 
+    padding-top: 2em;
     padding-bottom: 3.5em;
   }
 }
